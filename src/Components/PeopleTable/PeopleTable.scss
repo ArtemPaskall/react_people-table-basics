@@ -1,0 +1,32 @@
+.table {
+  border: 2px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+
+  &__caption {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  &__head {
+    border: 2px solid rgb(0, 0, 0);
+  }
+
+  &__col {
+    background-color: beige;
+
+    &:nth-child(2n) {
+      background-color: rgb(228, 228, 176);
+    }
+  }
+
+  &__th {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px 15px;
+  }
+
+  &__td {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px 15px;
+  }
+}
